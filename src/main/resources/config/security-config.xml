@@ -27,9 +27,9 @@
         <intercept-url pattern="/account" access="hasAnyRole('ROLE_ADMIN','ROLE_FORUM')" />
         <intercept-url pattern="/transfer" access="hasAnyRole('ROLE_ADMIN','ROLE_FORUM')" method="POST"/>
 
-		<session-management>
-			<concurrency-control max-sessions="1" error-if-maximum-exceeded="true" />
-		</session-management>
+		<!--<session-management>-->
+			<!--<concurrency-control max-sessions="1" error-if-maximum-exceeded="true" />-->
+		<!--</session-management>-->
 
         <form-login login-page="/login" default-target-url="/accounts" authentication-failure-url="/accessdenied"  />
 		<logout logout-success-url="/logout" />
