@@ -31,7 +31,8 @@
 			<div id="wrapper" class="col-sm-offset-3 col-sm-6 col-md-offset-3 col-md-6 col-lg-offset-3 col-lg-6">
 				<div id="login" class="animate form">
 					<form name='loginForm' action="<c:url value='/login' />" method='POST'>
-						<input type="hidden" name="${_csrf.parameterName}"   value="${_csrf.token}"/>
+						<!-- <input type="hidden" name="${_csrf.parameterName}"   value="${_csrf.token}"/> -->
+
 
 						<h1>Secure Bank</h1>
 						<p>

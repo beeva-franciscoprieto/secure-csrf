@@ -32,9 +32,10 @@
             <div>
                 <div id="wrapper" class="col-sm-offset-3 col-sm-6 col-md-offset-3 col-md-6 col-lg-offset-3 col-lg-6">
                     <div id="register" class="animate form">
-                        <form id="accountForm"  method="POST" action="<c:url
-                        value='/newAccount?${_csrf.parameterName}=${_csrf.token}'/>" autocomplete="on"
-                              accept-charset="UTF-8">
+                         <form id="accountForm"  method="POST" action="<c:url value='/newAccount'/>" autocomplete="on" accept-charset="UTF-8">
+
+                        <!-- <form id="accountForm"  method="POST" action="<c:url value='/newAccount?${_csrf
+                        .parameterName}=${_csrf.token}'/>" autocomplete="on" accept-charset="UTF-8"> -->
 
                             <h1> New account number </h1>
                             <p>

@@ -68,7 +68,10 @@
                                 value='/account' />'">
                     </div>
                     <form id="transferForm"  method="POST" action="<c:url
-                    value='/transfer?${_csrf.parameterName}=${_csrf.token}'/>" autocomplete="on">
+                    value='/transfer'/>" autocomplete="on">
+
+                    <!-- <form id="transferForm"  method="POST" action="<c:url
+                    value='/transfer?${_csrf.parameterName}=${_csrf.token}'/>" autocomplete="on"> -->
 
                         <h1> Accounts </h1>
                         <div style="width:500px">

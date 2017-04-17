@@ -17,6 +17,7 @@
 	<!-- secure the application´s urls with the specific Role -->
 	<http auto-config="false"  use-expressions="true">
 
+		<csrf disabled="true"/>
 		<intercept-url pattern="/login" access="permitAll" method="POST"/>
 		<intercept-url pattern="/logout" access="permitAll" />
         <intercept-url pattern="/register" access="permitAll" />
